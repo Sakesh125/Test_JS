@@ -1,5 +1,28 @@
-// hello.js
-
-// Print "Hello, World!" to the console
-console.log("Hello, World!");
+let dayOfWeek = 3;
+switch (dayOfWeek)
+  {
+  case 1:
+    console.log("It's Monday. Time to start the week!");
+    break;
+  case 2:
+    console.log("It's Tuesday. Keep up the good work!");
+    break;
+  case 3:
+    console.log("It's Wednesday. Halfway through the week!");
+    break;
+  case 4:
+    console.log("It's Thursday. Almost there, hang in there!");
+    break;
+  case 5:
+    console.log("It's Friday. Weekend is almost here!");
+    break;
+  case 6:
+    console.log("It's Saturday. Time to relax and enjoy!");
+    break;
+  case 7:
+    console.log("It's Sunday. Take it easy and recharge for the week ahead!");
+    break;
+  default:
+    console.log("Invalid day of the week!");
+}
 
